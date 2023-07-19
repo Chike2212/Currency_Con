@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <p>Choose Currency Pair</p>
+
+        <!-- For First Placeholder -->
+
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="NGN">NGN</option>
+            </select>
+            <input type="number" id="amount-one" placeholder="0" value="1">
+        </div>
+
+        <!-- For Swap -->
+
+        <div class="swap-container">
+            <button class="btn" id="swap">Swap</button>
+            <div class="rate" id="rate"></div>
+        </div>
+
+        <!-- For Second Placeholder -->
+        <div class="currency">
+            <select id="currency-two">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="NGN" selected>NGN</option>
+            </select>
+            <input type="number" id="amount-two">
+        </div> 
+    </div>
+
+        <!-- JS Exetension -->
+
+    <script src="currency.js"></script>
+</body>
+</html>

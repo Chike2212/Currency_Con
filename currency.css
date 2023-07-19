@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+/* For Body */
+
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* For P and Btn */
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn{
+background-color: rgb(198, 195, 195);
+color: black;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 15px;
+padding: 4px;
+}
+
+/* For currency */
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 5px;
+    border: 2px solid grey;
+    background: transparent;
+}
+
+.currency input{
+    background: transparent;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.swap-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate{
+    font-size: 14px;
+    padding: 5px;
+}
+
